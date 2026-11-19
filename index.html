@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <style>
-      @import "./src/style.css";
-    </style>
-    <title>JSDev</title>
-  </head>
-  <body>
-    <h1>Alright. You're set.</h1>
-      <h2 class="tintedBlackLeft">Now build something amazing!</h2>
-      <p>JS in FM is amazing</p>
-    <button type="button">Click Me!</button>
+<html>
 
-    <script type="module">
-      import "./src/index.js";
-    </script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+        <link href='https://cdn.jsdelivr.net/npm/froala-editor@latest/css/froala_editor.pkgd.min.css' rel='stylesheet' type='text/css' />
+        <style>
+          @import "./src/style.css";
+        </style>
+      </head>
+
+    <body>
+
+        <div id="example"></div>
+
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/froala-editor@latest/js/froala_editor.pkgd.min.js'></script>  
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/froala-editor@latest/js/plugins/line_height.min.js'></script>  
+            <script type="module">
+              import "./src/index.js";
+            </script>
+    </body>
+
 </html>
